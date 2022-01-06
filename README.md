@@ -4,7 +4,7 @@ Updating...
 
 * Widgets
   * `SwipableCell`：支持自定义侧滑菜单的`UITableViewCell`；
-  ![SwipableCell](http://static.runoob.com/images/runoob-logo.png)
+  ![SwipableCell](/gifs/SwipableCell.gif)
 * Extensions
   * UIButtonExtensions
   * UIViewExtensions
