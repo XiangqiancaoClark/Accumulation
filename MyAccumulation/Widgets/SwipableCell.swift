@@ -1,9 +1,5 @@
-//
 //  SwipableCell.swift
-//  SwipableCell
-//
 //  Copyright (c) 2019年 Qiancaoxiang Clark. All rights reserved.
-//
 
 import UIKit
 
@@ -342,6 +338,7 @@ public class SwipableCell : UITableViewCell {
             button.addSubview(content)
             button.object = "button-tag:\(idx)"
             button.addTarget(self, action: #selector(_onButton(_:)), for: .touchUpInside)
+            view.clipsToBounds = true
             view.addSubview(button)
         }
         /// 将添加的按钮插入到主视图下方。

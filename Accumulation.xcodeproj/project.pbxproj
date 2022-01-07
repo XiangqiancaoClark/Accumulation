@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		07C7BE0C2786DC84005C354C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7BE0B2786DC84005C354C /* AppDelegate.swift */; };
-		07C7BE102786DC84005C354C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7BE0F2786DC84005C354C /* ViewController.swift */; };
 		07C7BE132786DC84005C354C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C7BE112786DC84005C354C /* Main.storyboard */; };
 		07C7BE152786DC87005C354C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7BE142786DC87005C354C /* Assets.xcassets */; };
 		07C7BE182786DC87005C354C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C7BE162786DC87005C354C /* LaunchScreen.storyboard */; };
@@ -16,12 +15,16 @@
 		07C7BE262786DD11005C354C /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7BE222786DD11005C354C /* UIButtonExtensions.swift */; };
 		07C7BE272786DD11005C354C /* SwipableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7BE242786DD11005C354C /* SwipableCell.swift */; };
 		07C7BE292786E856005C354C /* UserDefaultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7BE282786E856005C354C /* UserDefaultExtensions.swift */; };
+		07C7BE2B2786EDAD005C354C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 07C7BE2A2786EDAD005C354C /* README.md */; };
+		07ECE9A12787CB7B008C1615 /* SwipableCellDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A02787CB7B008C1615 /* SwipableCellDemoViewController.swift */; };
+		07ECE9A42787D444008C1615 /* ReduceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A32787D444008C1615 /* ReduceTableViewCell.swift */; };
+		07ECE9A62787D59C008C1615 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A52787D59C008C1615 /* CGRectExtensions.swift */; };
+		C04142C7D5875AFA5F6A11AB /* Pods_Accumulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFCCA8727E9C82ED0A59729 /* Pods_Accumulation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07C7BE082786DC84005C354C /* Accumulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accumulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C7BE0B2786DC84005C354C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07C7BE0F2786DC84005C354C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07C7BE122786DC84005C354C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07C7BE142786DC87005C354C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C7BE172786DC87005C354C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +33,13 @@
 		07C7BE222786DD11005C354C /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
 		07C7BE242786DD11005C354C /* SwipableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipableCell.swift; sourceTree = "<group>"; };
 		07C7BE282786E856005C354C /* UserDefaultExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultExtensions.swift; sourceTree = "<group>"; };
+		07C7BE2A2786EDAD005C354C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07ECE9A02787CB7B008C1615 /* SwipableCellDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCellDemoViewController.swift; sourceTree = "<group>"; };
+		07ECE9A32787D444008C1615 /* ReduceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceTableViewCell.swift; sourceTree = "<group>"; };
+		07ECE9A52787D59C008C1615 /* CGRectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtensions.swift; sourceTree = "<group>"; };
+		5AFCCA8727E9C82ED0A59729 /* Pods_Accumulation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accumulation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		811B8DF7D0DBF912AFC7C7A9 /* Pods-Accumulation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accumulation.debug.xcconfig"; path = "Target Support Files/Pods-Accumulation/Pods-Accumulation.debug.xcconfig"; sourceTree = "<group>"; };
+		CA4F5E262F1C555E8B7F2EE7 /* Pods-Accumulation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accumulation.release.xcconfig"; path = "Target Support Files/Pods-Accumulation/Pods-Accumulation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04142C7D5875AFA5F6A11AB /* Pods_Accumulation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +57,11 @@
 		07C7BDFF2786DC84005C354C = {
 			isa = PBXGroup;
 			children = (
+				07C7BE2A2786EDAD005C354C /* README.md */,
 				07C7BE0A2786DC84005C354C /* Accumulation */,
 				07C7BE092786DC84005C354C /* Products */,
+				2B6E70A5CE0F1C407E8AF2C5 /* Pods */,
+				44A3C4794EAAB9D288482930 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +78,7 @@
 			children = (
 				07C7BE1F2786DD11005C354C /* MyAccumulation */,
 				07C7BE0B2786DC84005C354C /* AppDelegate.swift */,
-				07C7BE0F2786DC84005C354C /* ViewController.swift */,
+				07ECE99F2787CB35008C1615 /* Demo */,
 				07C7BE112786DC84005C354C /* Main.storyboard */,
 				07C7BE142786DC87005C354C /* Assets.xcassets */,
 				07C7BE162786DC87005C354C /* LaunchScreen.storyboard */,
@@ -76,6 +90,7 @@
 		07C7BE1F2786DD11005C354C /* MyAccumulation */ = {
 			isa = PBXGroup;
 			children = (
+				07ECE9A22787D3F1008C1615 /* Examples */,
 				07C7BE202786DD11005C354C /* Extensions */,
 				07C7BE232786DD11005C354C /* Widgets */,
 			);
@@ -88,6 +103,7 @@
 				07C7BE212786DD11005C354C /* UIViewExtensions.swift */,
 				07C7BE222786DD11005C354C /* UIButtonExtensions.swift */,
 				07C7BE282786E856005C354C /* UserDefaultExtensions.swift */,
+				07ECE9A52787D59C008C1615 /* CGRectExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -100,6 +116,39 @@
 			path = Widgets;
 			sourceTree = "<group>";
 		};
+		07ECE99F2787CB35008C1615 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				07ECE9A02787CB7B008C1615 /* SwipableCellDemoViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		07ECE9A22787D3F1008C1615 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				07ECE9A32787D444008C1615 /* ReduceTableViewCell.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		2B6E70A5CE0F1C407E8AF2C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				811B8DF7D0DBF912AFC7C7A9 /* Pods-Accumulation.debug.xcconfig */,
+				CA4F5E262F1C555E8B7F2EE7 /* Pods-Accumulation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44A3C4794EAAB9D288482930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFCCA8727E9C82ED0A59729 /* Pods_Accumulation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07C7BE1C2786DC87005C354C /* Build configuration list for PBXNativeTarget "Accumulation" */;
 			buildPhases = (
+				1DA48581C1F3E782EB5A57E4 /* [CP] Check Pods Manifest.lock */,
 				07C7BE042786DC84005C354C /* Sources */,
 				07C7BE052786DC84005C354C /* Frameworks */,
 				07C7BE062786DC84005C354C /* Resources */,
+				810048BB0F8C13DA591AEC71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,11 +211,54 @@
 			files = (
 				07C7BE182786DC87005C354C /* LaunchScreen.storyboard in Resources */,
 				07C7BE152786DC87005C354C /* Assets.xcassets in Resources */,
+				07C7BE2B2786EDAD005C354C /* README.md in Resources */,
 				07C7BE132786DC84005C354C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA48581C1F3E782EB5A57E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Accumulation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810048BB0F8C13DA591AEC71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accumulation/Pods-Accumulation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accumulation/Pods-Accumulation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Accumulation/Pods-Accumulation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07C7BE042786DC84005C354C /* Sources */ = {
@@ -172,9 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C7BE292786E856005C354C /* UserDefaultExtensions.swift in Sources */,
-				07C7BE102786DC84005C354C /* ViewController.swift in Sources */,
 				07C7BE262786DD11005C354C /* UIButtonExtensions.swift in Sources */,
 				07C7BE252786DD11005C354C /* UIViewExtensions.swift in Sources */,
+				07ECE9A12787CB7B008C1615 /* SwipableCellDemoViewController.swift in Sources */,
+				07ECE9A42787D444008C1615 /* ReduceTableViewCell.swift in Sources */,
+				07ECE9A62787D59C008C1615 /* CGRectExtensions.swift in Sources */,
 				07C7BE272786DD11005C354C /* SwipableCell.swift in Sources */,
 				07C7BE0C2786DC84005C354C /* AppDelegate.swift in Sources */,
 			);
@@ -320,6 +416,7 @@
 		};
 		07C7BE1D2786DC87005C354C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811B8DF7D0DBF912AFC7C7A9 /* Pods-Accumulation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,6 +445,7 @@
 		};
 		07C7BE1E2786DC87005C354C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4F5E262F1C555E8B7F2EE7 /* Pods-Accumulation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -6,6 +6,11 @@ Updating...
   * `SwipableCell`：支持自定义侧滑菜单的`UITableViewCell`；
   
   ![SwipableCell](/gifs/SwipableCell.gif)
+  
+* Examples
+    * `ReduceTableViewCell`：实现`UITableViewCell`分组卡片效果，非添加视图的方式；
+    
+    ![ReduceTableViewCell](/gifs/ReduceTableViewCell.gif)
 * Extensions
   * UIButtonExtensions
   * UIViewExtensions

@@ -1,9 +1,5 @@
-//
 //  UserDefaultExtensions.swift
-//  Accumulation
-//
 //  Copyright (c) 2022年 Qiancaoxiang Clark. All rights reserved.
-//
 
 import Foundation
 
