@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07387DED278D484D00DC540D /* QCUITextStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07387DEC278D484D00DC540D /* QCUITextStrategy.swift */; };
+		07387DEF278D716900DC540D /* Converts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07387DEE278D716900DC540D /* Converts.swift */; };
+		07828E5B278C1050001FC6D2 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07828E5A278C1050001FC6D2 /* UITextFieldExtensions.swift */; };
+		07828E5D278C1286001FC6D2 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07828E5C278C1286001FC6D2 /* StringExtensions.swift */; };
+		07828E5F278C19AA001FC6D2 /* NSRangeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07828E5E278C19AA001FC6D2 /* NSRangeExtensions.swift */; };
 		07C7BE0C2786DC84005C354C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7BE0B2786DC84005C354C /* AppDelegate.swift */; };
 		07C7BE132786DC84005C354C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C7BE112786DC84005C354C /* Main.storyboard */; };
 		07C7BE152786DC87005C354C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7BE142786DC87005C354C /* Assets.xcassets */; };
@@ -19,10 +24,20 @@
 		07ECE9A12787CB7B008C1615 /* SwipableCellDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A02787CB7B008C1615 /* SwipableCellDemoViewController.swift */; };
 		07ECE9A42787D444008C1615 /* ReduceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A32787D444008C1615 /* ReduceTableViewCell.swift */; };
 		07ECE9A62787D59C008C1615 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A52787D59C008C1615 /* CGRectExtensions.swift */; };
+		07ECE9A827881588008C1615 /* ExceedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A727881588008C1615 /* ExceedButton.swift */; };
+		07ECE9AA27881D98008C1615 /* ExceedButtonDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9A927881D98008C1615 /* ExceedButtonDemoViewController.swift */; };
+		07ECE9AC27882921008C1615 /* QCUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9AB27882921008C1615 /* QCUITextField.swift */; };
+		07ECE9AE27882C9C008C1615 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9AD27882C9C008C1615 /* UIColorExtensions.swift */; };
+		07ECE9B0278830D7008C1615 /* QCUITextFieldDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECE9AF278830D7008C1615 /* QCUITextFieldDemoViewController.swift */; };
 		C04142C7D5875AFA5F6A11AB /* Pods_Accumulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFCCA8727E9C82ED0A59729 /* Pods_Accumulation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07387DEC278D484D00DC540D /* QCUITextStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCUITextStrategy.swift; sourceTree = "<group>"; };
+		07387DEE278D716900DC540D /* Converts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converts.swift; sourceTree = "<group>"; };
+		07828E5A278C1050001FC6D2 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		07828E5C278C1286001FC6D2 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		07828E5E278C19AA001FC6D2 /* NSRangeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRangeExtensions.swift; sourceTree = "<group>"; };
 		07C7BE082786DC84005C354C /* Accumulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accumulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C7BE0B2786DC84005C354C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C7BE122786DC84005C354C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +52,11 @@
 		07ECE9A02787CB7B008C1615 /* SwipableCellDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCellDemoViewController.swift; sourceTree = "<group>"; };
 		07ECE9A32787D444008C1615 /* ReduceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceTableViewCell.swift; sourceTree = "<group>"; };
 		07ECE9A52787D59C008C1615 /* CGRectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtensions.swift; sourceTree = "<group>"; };
+		07ECE9A727881588008C1615 /* ExceedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceedButton.swift; sourceTree = "<group>"; };
+		07ECE9A927881D98008C1615 /* ExceedButtonDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceedButtonDemoViewController.swift; sourceTree = "<group>"; };
+		07ECE9AB27882921008C1615 /* QCUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCUITextField.swift; sourceTree = "<group>"; };
+		07ECE9AD27882C9C008C1615 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		07ECE9AF278830D7008C1615 /* QCUITextFieldDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCUITextFieldDemoViewController.swift; sourceTree = "<group>"; };
 		5AFCCA8727E9C82ED0A59729 /* Pods_Accumulation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accumulation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		811B8DF7D0DBF912AFC7C7A9 /* Pods-Accumulation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accumulation.debug.xcconfig"; path = "Target Support Files/Pods-Accumulation/Pods-Accumulation.debug.xcconfig"; sourceTree = "<group>"; };
 		CA4F5E262F1C555E8B7F2EE7 /* Pods-Accumulation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accumulation.release.xcconfig"; path = "Target Support Files/Pods-Accumulation/Pods-Accumulation.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +124,10 @@
 				07C7BE222786DD11005C354C /* UIButtonExtensions.swift */,
 				07C7BE282786E856005C354C /* UserDefaultExtensions.swift */,
 				07ECE9A52787D59C008C1615 /* CGRectExtensions.swift */,
+				07ECE9AD27882C9C008C1615 /* UIColorExtensions.swift */,
+				07828E5A278C1050001FC6D2 /* UITextFieldExtensions.swift */,
+				07828E5C278C1286001FC6D2 /* StringExtensions.swift */,
+				07828E5E278C19AA001FC6D2 /* NSRangeExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -112,6 +136,10 @@
 			isa = PBXGroup;
 			children = (
 				07C7BE242786DD11005C354C /* SwipableCell.swift */,
+				07ECE9A727881588008C1615 /* ExceedButton.swift */,
+				07ECE9AB27882921008C1615 /* QCUITextField.swift */,
+				07387DEC278D484D00DC540D /* QCUITextStrategy.swift */,
+				07387DEE278D716900DC540D /* Converts.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -120,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				07ECE9A02787CB7B008C1615 /* SwipableCellDemoViewController.swift */,
+				07ECE9A927881D98008C1615 /* ExceedButtonDemoViewController.swift */,
+				07ECE9AF278830D7008C1615 /* QCUITextFieldDemoViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -183,6 +213,7 @@
 				TargetAttributes = {
 					07C7BE072786DC84005C354C = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -265,14 +296,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07828E5F278C19AA001FC6D2 /* NSRangeExtensions.swift in Sources */,
+				07387DEF278D716900DC540D /* Converts.swift in Sources */,
 				07C7BE292786E856005C354C /* UserDefaultExtensions.swift in Sources */,
 				07C7BE262786DD11005C354C /* UIButtonExtensions.swift in Sources */,
 				07C7BE252786DD11005C354C /* UIViewExtensions.swift in Sources */,
+				07ECE9AE27882C9C008C1615 /* UIColorExtensions.swift in Sources */,
 				07ECE9A12787CB7B008C1615 /* SwipableCellDemoViewController.swift in Sources */,
+				07828E5B278C1050001FC6D2 /* UITextFieldExtensions.swift in Sources */,
 				07ECE9A42787D444008C1615 /* ReduceTableViewCell.swift in Sources */,
+				07ECE9AA27881D98008C1615 /* ExceedButtonDemoViewController.swift in Sources */,
 				07ECE9A62787D59C008C1615 /* CGRectExtensions.swift in Sources */,
+				07ECE9A827881588008C1615 /* ExceedButton.swift in Sources */,
+				07387DED278D484D00DC540D /* QCUITextStrategy.swift in Sources */,
 				07C7BE272786DD11005C354C /* SwipableCell.swift in Sources */,
 				07C7BE0C2786DC84005C354C /* AppDelegate.swift in Sources */,
+				07828E5D278C1286001FC6D2 /* StringExtensions.swift in Sources */,
+				07ECE9AC27882921008C1615 /* QCUITextField.swift in Sources */,
+				07ECE9B0278830D7008C1615 /* QCUITextFieldDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -438,6 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "PiKaqq-Xiang.Accumulation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

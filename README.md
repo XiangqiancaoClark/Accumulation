@@ -7,11 +7,17 @@ Updating...
   
   ![SwipableCell](/gifs/SwipableCell.gif)
   
+  * `ExceedButton`：支持自定义热区大小的按钮；
+  
+    ![SwipableCell](/gifs/ExceedButton.gif)
+  
 * Examples
     * `ReduceTableViewCell`：实现`UITableViewCell`分组卡片效果，非添加视图的方式；
     
     ![ReduceTableViewCell](/gifs/ReduceTableViewCell.gif)
+    
 * Extensions
   * UIButtonExtensions
   * UIViewExtensions
-  * UserDefaultsExtensions 
+  * UserDefaultsExtensions
+  * CGRectExtension
